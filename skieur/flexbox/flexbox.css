@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins&family=Roboto:wght@300&family=Staatliches&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 85%;
+    height: 500px;
+    margin: 0 auto;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.item-1, .item-2, .item-3{
+    width: 150px;
+    height: 150px;
+    background-color: chartreuse;
+    text-align: center;
+    border: 1px solid black;
+    margin: 5px;
+    
+}
+
+.section-flex{
+
+    background-color: darkslateblue;
+    margin-bottom: 200px;
+    color: #ffffff;
+    
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.info-section{
+    color: antiquewhite;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.flex-nav{
+    height: 70px;
+    justify-content: space-between;
+    
+    
+
+    
+}
+
+.flex-nav img{
+    width: 70px;
+}
+
+
+.flex-nav ul{
+
+    list-style-type: none;
+    display: flex;
+    margin-right: 50px;
+}
+
+.flex-nav ul li{
+    margin: 0 10px;
+}
+
